@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "react-router-dom"
-import basket from "/Users/fionaberkery/CodeClan_work/week_8/weekend_homework/retro_box/the_retro_box_2/src/images/basket.png"
+
 
 const Header = () => {
 
@@ -24,10 +24,14 @@ const Header = () => {
             </h1>
 
             <div id="nav-bar">
-            <p><Link to="/">HOME</Link></p>
-            <p><Link to="/toys"> TOYS </Link></p>
-            <p><Link to="/basket"> BASKET </Link></p>
-            <p><Link to="wishlist"> WISHLIST </Link></p>
+            
+            <button><Link to="/" id="link-style">HOME</Link></button>
+            <p><Link to="/toys" id="link-style"> TOYS </Link></p>
+            <p><Link to="wishlist" id="link-style" > WISHLIST </Link></p>
+            <p><Link to="/basket" id="link-style"> BASKET </Link></p>
+            
+            
+            
             </div>
         </div>
 

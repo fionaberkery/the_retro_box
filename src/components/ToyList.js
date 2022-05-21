@@ -21,7 +21,7 @@ const ToyList = ({toys, onImageClick, selectedToy, onWishListClick, wishList, on
 
         <>
 
-            <h3> I'm the toy list </h3>
+            
 
             <ul id="container">
                 {componentToShow}

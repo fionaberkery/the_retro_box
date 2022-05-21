@@ -1,0 +1,28 @@
+#container {
+    display:grid;
+    grid-template-areas:
+    'item item item';
+    
+}
+
+#item {
+    border-style:solid;
+    padding: 30px;
+    margin: 30px;
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    
+}
+
+button {
+    cursor: pointer;
+}
+
+#selector {
+    cursor: pointer;
+}
+
+#image {
+    border-style: hidden;
+}

@@ -11,18 +11,21 @@ const ToyItem = ({toy, index, onImageClick}) => {
         return (
     
             <>
-            <section id="container">
-            <div id="item">
+            <section>
                 
-                <button> 
-                    <img id="image" onClick={handleClick} src={toy.image} width="200px" height="200px" /> 
-                </button>
-                <div id="selector">
-                <p onClick={handleClick}> {toy.name} </p>
-                <p> {toy.price} </p>
+                <div id="item">
+                
+                    <button id="image"> 
+                        <img onClick={handleClick} src={toy.image} width="300px" height="300px" /> 
+                    </button>
+                    
+                    <div id="selector">
+                        <p onClick={handleClick}> {toy.name} </p>
+                        <p> {toy.price} </p>
+                    </div>
                 
                 </div>
-            </div>
+            
             </section>
             
             </>

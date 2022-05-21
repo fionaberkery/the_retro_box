@@ -1,0 +1,78 @@
+/* #toy-detail-page {
+    background-color: #b3eff6 ; 
+    
+} */
+
+#image-detail {
+    padding:50px;
+    margin-left: 30%
+}
+
+.button {
+    background-color: #9985f1; 
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+
+}
+
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #9985f1;
+    
+}
+
+.button1:hover {
+    background-color: #9985f1;
+    color: white;
+}
+
+.button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #ebd3ee;
+}
+
+.button2:hover {
+    background-color: #ebd3ee;
+    color: white;
+}
+
+.button3 {
+    background-color: white; 
+    color:black; 
+}
+
+.button4 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #ebd3ee;
+    width:500px;
+}
+
+.button4:hover {
+    background-color: #ebd3ee;
+    color: white;
+}
+
+#item-description {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    text-align: center;
+}
+
+#add-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

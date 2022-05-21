@@ -6,11 +6,12 @@ const Wishlist = ({theWishList}) => {
     return (
 
         <>
+        <div id="wishlist">
+        <br></br><br></br>
+            <h2 id="wishlist-header"> Your Retro Box Wishlist </h2>
 
-        <h2> I am the WishList </h2>
-
-           <p> {theWishList} </p>
-
+                <p> {theWishList} </p>
+        </div>
         </>
     )
 }

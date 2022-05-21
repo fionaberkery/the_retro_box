@@ -7,7 +7,11 @@ import Home from './components/Home'
 import toys from './components/DummyData'
 import Header from './components/Header'
 import Footer from './components/Footer'
-import './App.css'
+import './css/Home.css'
+import './css/ToyDetail.css'
+import './css/WishList.css'
+import './css/ShoppingBasket.css'
+import './css/ToyList.css'
 
 const App = () => {
 
