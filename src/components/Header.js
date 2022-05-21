@@ -16,6 +16,7 @@ const Header = () => {
             <span>T</span>
             <span>R</span>
             <span>O</span>
+            <span>-</span>
             <span>B</span>
             <span>O</span>
             <span>X</span>
