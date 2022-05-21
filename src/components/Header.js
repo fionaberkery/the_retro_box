@@ -9,7 +9,18 @@ const Header = () => {
         <>
 
         <div id="header">
-            <h1 id="title"> The Retro Box </h1>
+            
+            <h1 id="title">
+            <span>R</span>
+            <span>E</span>
+            <span>T</span>
+            <span>R</span>
+            <span>O</span>
+            <span>B</span>
+            <span>O</span>
+            <span>X</span>
+
+            </h1>
 
             <div id="nav-bar">
             <p><Link to="/">HOME</Link></p>

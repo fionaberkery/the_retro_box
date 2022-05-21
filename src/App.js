@@ -49,7 +49,7 @@ const theShoppingBasket = shoppingBasket.map((item) => {
 
       <Router>
         <Header/>
-        <hr></hr>
+        
         
           <Switch>
 
@@ -70,7 +70,7 @@ const theShoppingBasket = shoppingBasket.map((item) => {
           </Route>
           
           </Switch>
-        <hr></hr>
+        
         <Footer/>
       </Router>
     </>

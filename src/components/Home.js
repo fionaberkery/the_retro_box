@@ -7,8 +7,7 @@ const Home = () => {
 
         <>
         <div id="home-page">
-            <h1> HELLO I AM THE HOME PAGE </h1>
-            <br></br>
+           
         </div>
         </>
     )
