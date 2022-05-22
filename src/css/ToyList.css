@@ -1,16 +1,17 @@
-#container {
-    display:grid;
-    grid-template-areas:
-    'item item item';
+/* #toylist-page {
+    margin:1000px
     
-}
+} */
 
 #item {
-    border-style:solid;
+    display: inline-block;
+    border-style:hidden;
     padding: 30px;
     margin: 30px;
-    height: 400px;
-    width: 400px;
+    margin-top: 50px;
+    margin-left: 50px;
+    height: fit-content;
+    width: fit-content;
     text-align: center;
     
 }
@@ -26,3 +27,4 @@ button {
 #image {
     border-style: hidden;
 }
+

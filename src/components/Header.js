@@ -26,10 +26,10 @@ const Header = () => {
             <div id="nav-bar">
             
             
-            <button class="button button1"><Link to="/" id="link-style">HOME</Link></button>
-            <button class="button button1"><Link to="/toys" id="link-style"> TOYS </Link></button>
-            <button class="button button1"><Link to="wishlist" id="link-style" > WISHLIST </Link></button>
-            <button class="button button1"><Link to="/basket" id="link-style"> BASKET </Link></button>
+            <button className="button button1"><Link to="/" id="link-style">HOME</Link></button>
+            <button className="button button1"><Link to="/toys" id="link-style"> TOYS </Link></button>
+            <button className="button button1"><Link to="wishlist" id="link-style" > WISHLIST </Link></button>
+            <button className="button button1"><Link to="/basket" id="link-style"> BASKET </Link></button>
             
             
             

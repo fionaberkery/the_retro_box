@@ -50,7 +50,7 @@ const theShoppingBasket = shoppingBasket.map((item) => {
 
   return (
     <>
-
+  <div id="website">
       <Router>
         <Header/>
         
@@ -62,7 +62,7 @@ const theShoppingBasket = shoppingBasket.map((item) => {
           </Route>
 
           <Route exact path="/toys">      
-            <ToyList onGoBackClick={onGoBackClick} toys={toys} onImageClick={onImageClick} selectedToy={selectedToy} onWishListClick={onWishListClick} wishList={wishList} onAddToBasketClick={onAddToBasketClick} />
+            <ToyList onGoBackClick={onGoBackClick} toys={toys} onImageClick={onImageClick} selectedToy={selectedToy} onWishListClick={onWishListClick} wishList={wishList} onAddToBasketClick={onAddToBasketClick} shoppingBasket={shoppingBasket} />
           </Route>
 
           <Route path="/wishlist">
@@ -77,6 +77,7 @@ const theShoppingBasket = shoppingBasket.map((item) => {
         
         <Footer/>
       </Router>
+      </div>
     </>
   )
 }

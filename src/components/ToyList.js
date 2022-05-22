@@ -2,7 +2,7 @@ import React from "react";
 import ToyItem from './ToyItem'
 import ToyDetail from "./ToyDetail"
 
-const ToyList = ({toys, onImageClick, selectedToy, onWishListClick, wishList, onGoBackClick, onAddToBasketClick}) => {
+const ToyList = ({toys, onImageClick, selectedToy, onWishListClick, wishList, onGoBackClick, onAddToBasketClick, shoppingBasket}) => {
 
     const retroToysList = toys.map((toy, index) => {
         return <ToyItem onImageClick={onImageClick} key={index} toy={toy}/>
@@ -11,7 +11,7 @@ const ToyList = ({toys, onImageClick, selectedToy, onWishListClick, wishList, on
     let componentToShow
 
     if (selectedToy) {
-        componentToShow = <ToyDetail selectedToy={selectedToy} onWishListClick={onWishListClick} wishList={wishList} onGoBackClick={onGoBackClick} onAddToBasketClick={onAddToBasketClick} />
+        componentToShow = <ToyDetail selectedToy={selectedToy} onWishListClick={onWishListClick} wishList={wishList} onGoBackClick={onGoBackClick} onAddToBasketClick={onAddToBasketClick} shoppingBasket={shoppingBasket} />
     }
     else {
         return retroToysList
@@ -20,14 +20,14 @@ const ToyList = ({toys, onImageClick, selectedToy, onWishListClick, wishList, on
     return (
 
         <>
-
+        <div id="toylist-page">
             
 
-            <ul id="container">
+            
                 {componentToShow}
-            </ul>
+            
 
-
+        </div>
         </>
     )
 }

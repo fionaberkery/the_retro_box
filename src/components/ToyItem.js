@@ -11,7 +11,7 @@ const ToyItem = ({toy, index, onImageClick}) => {
         return (
     
             <>
-            <section>
+            
                 
                 <div id="item">
                 
@@ -26,7 +26,7 @@ const ToyItem = ({toy, index, onImageClick}) => {
                 
                 </div>
             
-            </section>
+            
             
             </>
         )

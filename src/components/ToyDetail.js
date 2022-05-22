@@ -1,6 +1,7 @@
 import React from "react"
+import ShoppingBasket from "./ShoppingBasket"
 
-const ToyDetail = ({selectedToy, wishList, onWishListClick, onGoBackClick, onAddToBasketClick}) => {
+const ToyDetail = ({selectedToy, wishList, onWishListClick, onGoBackClick, onAddToBasketClick, shoppingBasket}) => {
 
 const handleAddToWishlist = (event) => {
     onWishListClick(event.target.value)
@@ -14,27 +15,34 @@ const handleGoBack = () => {
     onGoBackClick()
 }
 
+
+
     return (
 
         <>
             <div id="toy-detail-page">
 
             <p>
-                <button class="button button1" onClick={handleGoBack}> Go back </button>
+                <button className="button button1" onClick={handleGoBack}> Go back </button>
             </p>
 
             <img id="image-detail" src={selectedToy.image} width="600px" height="600px" />
             <div id="item-description">
-            <h2> {selectedToy.name} </h2>
+            <h2 > {selectedToy.name} </h2>
             <b> <p> {selectedToy.price} </p> </b>
-            <p> {selectedToy.description} </p>
+            <p id="description-of-toy"> {selectedToy.description} </p>
             </div>
             <div id="add-button">
-            <button class="button button4" onClick={handleAddToBasket} value={selectedToy.name}> Add to basket </button>
+
+            {shoppingBasket.includes(selectedToy.name) ? <p> Added to basket! </p> :
+            <button className="button button4" onClick={handleAddToBasket} value={selectedToy.name}> Add to basket </button>}
+            
             </div>
+            
             <br></br>
-            {wishList.includes(selectedToy.name) ? <button class="button button3"> Wishlist ❤️ </button> :
-            <button class="button button2" onClick={handleAddToWishlist} value={selectedToy.name}> Add to wishlist ♡ </button>}
+            {wishList.includes(selectedToy.name) ? <button className="button button3"> Wishlist ❤️ </button> :
+            <button className="button button2" onClick={handleAddToWishlist} value={selectedToy.name}> Add to wishlist ♡ </button>}
+            
             </div>
 
         </>

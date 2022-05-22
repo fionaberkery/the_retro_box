@@ -9,8 +9,9 @@ const Wishlist = ({theWishList}) => {
         <div id="wishlist">
         <br></br><br></br>
             <h2 id="wishlist-header"> Your Retro Box Wishlist </h2>
+            
 
-                <p> {theWishList} </p>
+                <p id="the-wishlist-list"> {theWishList} </p>
         </div>
         </>
     )
