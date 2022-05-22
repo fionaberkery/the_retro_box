@@ -42,7 +42,7 @@
 #checkout-button {
         background-color: white; 
         color: #f292bd; 
-        border: 2px solid black;
+        border: 2px solid #b7a0d1;
         padding: 16px 32px;
         text-align: center;
         text-decoration: none;
@@ -65,4 +65,8 @@
     font-family:'Courier New', Courier, monospace;
     text-decoration: none;
     font-size: 1.5em;
+}
+
+#checkout-link:hover {
+    color: white;
 }

@@ -26,12 +26,12 @@ const Header = () => {
             <div id="nav-bar">
             
             
-            <button id="nav-bar-button1"><Link to="/" id="link-style-home">HOME</Link></button>
-            <button id="nav-bar-button2"><Link to="/toys" id="link-style-toys"> ALL TOYS </Link></button>
-            <div id="mini-nav-bar">
-            <button id="nav-bar-button3"><Link to="wishlist" id="link-style-wishlist" > ♡ </Link></button>
+            <button id="nav-bar-button1"><Link to="/" id="link-style-home">HOME</Link></button> <hr></hr>
+            <button id="nav-bar-button2"><Link to="/toys" id="link-style-toys"> ALL TOYS </Link></button><hr></hr>
+            {/* <div id="mini-nav-bar"> */}
+            <button id="nav-bar-button3"><Link to="wishlist" id="link-style-wishlist" > ♡ </Link></button> <hr></hr>
             <button id="nav-bar-button4"><Link to="/basket" id="link-style-basket"> 🛒 </Link></button>
-            </div>
+            {/* </div> */}
             
             
             </div>

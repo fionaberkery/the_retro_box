@@ -8,7 +8,9 @@ const Home = () => {
         <>
         <div id="home-page">
         
+        <button id="show-me-the-toys">
         <a id="link-text" href="/toys"> show me the toys </a>
+        </button>
         </div>
         </>
     )

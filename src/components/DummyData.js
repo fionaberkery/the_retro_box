@@ -46,6 +46,20 @@ import crocDentist from "/Users/fionaberkery/CodeClan_work/week_8/weekend_homewo
 
     const toys = [
         {
+            id:24,
+            image:power,
+            name:"Power Rangers",
+            price:"£89.99",
+            description:"Officially licensed Mighty Morphin Power Rangers figures collection. First released in 1993. A must have for any Power Rangers collector. Unopened in original packaging."
+        },
+        {
+            id:25,
+            image:gameBoy,
+            name:"Nintendo GameBoy",
+            price:"£79.99",
+            description:"The Game Boy is an 8-bit handheld game console developed and manufactured by Nintendo. The first handheld in the Game Boy family, it was first released in Japan on April 21, 1989. The console was released in Europe in late 1990. Comes with Tetris Game. Used condition with original packaging."
+        },
+        {
             id:1,
             image:TamaFlames,
             name:"Tamagotchi - Flames",
@@ -53,11 +67,60 @@ import crocDentist from "/Users/fionaberkery/CodeClan_work/week_8/weekend_homewo
             description:"The Original Tamagotchi virtual pet from 1997. Feed it, turn lights on/off, play with it, give it medicine, flush after it’s used the bathroom, check its health and discipline you Tamagotchi if its naughty. COMES WITH: galaxy shell Tamagotchi, frame and buttons, and original programming and characters; chain; battery included."
         },
         {
+            id:15,
+            image:sega,
+            name:"Sega Mega Drive",
+            price:"£99",
+            description:"Vintage Sega Mega Drive Classic Game Console with 80 Games included - AT Games. Boxed and unused. A fantastic gift for all retro games fantatics!"
+        },
+        {
+            id:20,
+            image:TrollsRain,
+            name:"Trolls - Rainbow Collection",
+            price:"£30",
+            description:"Hugely popular in the 1990s the Trolls Dolls. The complete Rainbow Trolls collection come with original packaging. Excellent condition."
+        },
+        {
             id:4,
             image:dearDiary,
             name:"Dear Diary",
             price:"£35",
             description:"Vintage Dear Diary Electronic Diary by Tiger Electronics from 1996. Does come with some age related marks, sticker on the front (can be removed) and sticker on inside of cover needs to be stuck back on! Manual has been written/coloured on but in full working order! A fantastic gift!!"
+        },
+        {
+            id:40,
+            image:pogs,
+            name:"Pogs Collection",
+            price:"£180",
+            description:"HUGE Pot collection of 804 Pogs and Slammers. 240 sleeves. 1990s original owner. The ultimate dog collection!"
+        },
+        {
+            id:17,
+            image:talkboy,
+            name:"Talkboy",
+            price:"£49.99",
+            description:"Vintage 1992 Deluxe Talkboy Tape Player Recorder. Seen in Home Alone 2. In good and clean condition with minor signs of use. Working perfecting. Four AA batteries required (not included). A classic and unique gift for someone."
+        },
+        {
+            id:21,
+            image:dreamPhone,
+            name:"Dream Phone",
+            price:"£70",
+            description:"Vintage 1992 Dream Phone board game. Unopened in original packaging. Batteries included. A wonderfully nostalgic and unique gift for someone."
+        },
+        {
+            id:22,
+            image:geoSafari,
+            name:"GeoSafari",
+            price:"£64.99",
+            description:"Vintage GeoSafari Electronic Learning Game with 28 cards and instruction manual. In excellent working condition. Comes with original packaging which has some minor outer damage."
+        },
+        {
+            id:23,
+            image:mrBlobby,
+            name:"Mr Blobby Inflatable Toy",
+            price:"£6.99",
+            description:"Standing at 18 inches tall Mr Blobby will be sure to be seen! This is an original item from 1992. Great item for retro parties, childrens parties or just a fantastic colourful decoration for any event. Air fill only."
         },
         {
             id:5,
@@ -80,13 +143,7 @@ import crocDentist from "/Users/fionaberkery/CodeClan_work/week_8/weekend_homewo
             price:"£12.99",
             description:""
         },
-        {
-            id:8,
-            image:Teeny,
-            name:"Teeny Weeny Families Grand Hotel",
-            price:"£24.99",
-            description:"1990s Grand Hotel Teeny Weeny Families Toy Sound & Lights Playset. Grandfather Clock Hotel from Teeny Weeny Families 1995. In good used condition with some play wear to stickers etc. Press the buttons in reception area to activate the lights and chime the clock. Fully working lights & sounds, requires x3 AAA batteries (will include brand new). Hotel only, didn't come with figures or furniture. They were sold separately at the time."
-        },
+       
         {
             id:9,
             image:rubiks,
@@ -129,13 +186,7 @@ import crocDentist from "/Users/fionaberkery/CodeClan_work/week_8/weekend_homewo
             price:"£22",
             description:"Vintage Fisher Price Adjustable Grow With Me Roller Skates. This is a pair of vintage Fisher Price Roller Skates. They are adjustable in length as the childs feet grow and they have three settings for wheel friction. They have been used but are still in good condition."
         },
-        {
-            id:15,
-            image:sega,
-            name:"Sega Mega Drive",
-            price:"£99",
-            description:"Vintage Sega Mega Drive Classic Game Console with 80 Games included - AT Games. Boxed and unused. A fantastic gift for all retro games fantatics!"
-        },
+       
         {
             id:16,
             image:garage,
@@ -143,13 +194,7 @@ import crocDentist from "/Users/fionaberkery/CodeClan_work/week_8/weekend_homewo
             price:"£49.99",
             description:"Vintage Fisher Price 1970s action garage with elevator, ramp and gas pump. The elevator and turntable works. Two story parking. Overall good condition. The decals are wearing off, see last photos. The inside of the lift has a small spillage mark. Garage only, no cars or people."
         },
-        {
-            id:17,
-            image:talkboy,
-            name:"Talkboy",
-            price:"£49.99",
-            description:"Vintage 1992 Deluxe Talkboy Tape Player Recorder. Seen in Home Alone 2. In good and clean condition with minor signs of use. Working perfecting. Four AA batteries required (not included). A classic and unique gift for someone."
-        },
+       
         {
             id:18,
             image:n64,
@@ -164,48 +209,9 @@ import crocDentist from "/Users/fionaberkery/CodeClan_work/week_8/weekend_homewo
             price:"£37.99",
             description:"Hugely popular in the 1990s the Trolls Dolls. A random collection of the Treasure Trolls, comes with original packaging. Excellent condition."
         },
-        {
-            id:20,
-            image:TrollsRain,
-            name:"Trolls - Rainbow Collection",
-            price:"£30",
-            description:"Hugely popular in the 1990s the Trolls Dolls. The complete Rainbow Trolls collection come with original packaging. Excellent condition."
-        },
-        {
-            id:21,
-            image:dreamPhone,
-            name:"Dream Phone",
-            price:"£70",
-            description:"Vintage 1992 Dream Phone board game. Unopened in original packaging. Batteries included. A wonderfully nostalgic and unique gift for someone."
-        },
-        {
-            id:22,
-            image:geoSafari,
-            name:"GeoSafari",
-            price:"£64.99",
-            description:"Vintage GeoSafari Electronic Learning Game with 28 cards and instruction manual. In excellent working condition. Comes with original packaging which has some minor outer damage."
-        },
-        {
-            id:23,
-            image:mrBlobby,
-            name:"Mr Blobby Inflatable Toy",
-            price:"£6.99",
-            description:"Standing at 18 inches tall Mr Blobby will be sure to be seen! This is an original item from 1992. Great item for retro parties, childrens parties or just a fantastic colourful decoration for any event. Air fill only."
-        },
-        {
-            id:24,
-            image:power,
-            name:"Power Rangers",
-            price:"£89.99",
-            description:"Officially licensed Mighty Morphin Power Rangers figures collection. First released in 1993. A must have for any Power Rangers collector. Unopened in original packaging."
-        },
-        {
-            id:25,
-            image:gameBoy,
-            name:"Nintendo GameBoy",
-            price:"£79.99",
-            description:"The Game Boy is an 8-bit handheld game console developed and manufactured by Nintendo. The first handheld in the Game Boy family, it was first released in Japan on April 21, 1989. The console was released in Europe in late 1990. Comes with Tetris Game. Used condition with original packaging."
-        },
+        
+       
+       
         {
             id:26,
             image:cadbury,
@@ -309,13 +315,7 @@ import crocDentist from "/Users/fionaberkery/CodeClan_work/week_8/weekend_homewo
             description:"Vintage MB Games Hungry Hippos board game from 1993. In original packaging with some damage to the box but the game itself in very good condition."
         },
 
-        {
-            id:40,
-            image:pogs,
-            name:"Pogs Collection",
-            price:"£180",
-            description:"HUGE Pot collection of 804 Pogs and Slammers. 240 sleeves. 1990s original owner. The ultimate dog collection!"
-        },
+      
 
         {
             id:41,
@@ -331,6 +331,13 @@ import crocDentist from "/Users/fionaberkery/CodeClan_work/week_8/weekend_homewo
             name:"Playmobil Ambulance Set",
             price:"£80",
             description:"Vintage 90s PLAYMOBIL Ambulance set. Comes in original packaging with some minor damage to box. Playmobil set in excellent condition. A fantastic unique retro gift!"
+        },
+        {
+            id:8,
+            image:Teeny,
+            name:"Teeny Weeny Families Grand Hotel",
+            price:"£24.99",
+            description:"1990s Grand Hotel Teeny Weeny Families Toy Sound & Lights Playset. Grandfather Clock Hotel from Teeny Weeny Families 1995. In good used condition with some play wear to stickers etc. Press the buttons in reception area to activate the lights and chime the clock. Fully working lights & sounds, requires x3 AAA batteries (will include brand new). Hotel only, didn't come with figures or furniture. They were sold separately at the time."
         },
 
         {

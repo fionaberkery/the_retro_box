@@ -42,9 +42,14 @@ const handleGoBack = () => {
                 
                 <br></br>
                 
+                <div id="wish-button">
                 {wishList.includes(selectedToy.name) ? <button className="button button3"> Wishlist ❤️ </button> :
                 <button className="button button2" onClick={handleAddToWishlist} value={selectedToy.name}> Add to wishlist ♡ </button>}
-                
+                </div>
+
+                <br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+                <hr id="hr"></hr>
+
             </div>
 
         </>

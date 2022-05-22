@@ -1,0 +1,66 @@
+#check-out-page {
+    background-image: url("/Users/fionaberkery/CodeClan_work/week_8/weekend_homework/retro_box/the_retro_box_2/src/images/wallpaper7.webp");
+    display:grid;
+    grid-template-areas:
+    "h1 h1"
+    "sign-in-form new-user-form";
+
+}
+
+#check-out-page > h1 {
+    margin-left: 20%;
+    background-color: white;
+    width:700px;
+    margin-top:20px;
+    margin-bottom: 50px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #b7a0d1;
+    width: fit-content;
+    padding:10px;
+}
+
+#sign-in-form {
+    border-style: solid;
+    border-color: #b7a0d1;
+    border-width: 3px;
+    width:fit-content;
+    height:300px;
+    padding:30px;
+    background-color: white;
+    margin-left:20%;
+    margin-bottom:10%;
+}
+
+#new-user-form {
+    border-style: solid;
+    border-color: #b7a0d1;
+    border-width: 3px;
+    width:fit-content;
+    height:300px;
+    padding:30px;
+    background-color: white;
+    margin-right: 20%;
+    margin-bottom:10%
+}
+
+#checkout-button2 {
+    color:white;
+    background-color: black;
+    border: 2px solid;
+    padding: 8px 16px;
+    cursor:pointer;
+}
+
+#checkout-button2:hover {
+    background-color: #7f7f7f;
+}
+
+#forgot-password {
+    color:#b7a0d1;
+    font-size: small;
+}
+
+#forgot-password:hover {
+    font-size:medium;
+}

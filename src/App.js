@@ -13,6 +13,7 @@ import './css/ToyDetail.css'
 import './css/WishList.css'
 import './css/ShoppingBasket.css'
 import './css/ToyList.css'
+import './css/Checkout.css'
 
 const App = () => {
 
