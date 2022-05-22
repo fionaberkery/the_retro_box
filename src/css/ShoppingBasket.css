@@ -1,0 +1,68 @@
+#shoppingbasket {
+    background-image: url("/Users/fionaberkery/CodeClan_work/week_8/weekend_homework/retro_box/the_retro_box_2/src/images/wallpaper6.webp");
+    background-size: cover;
+    height:1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#shoppingbasket-header {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 0px;
+    border-style:solid;
+    border-color: #f7eb54;
+    border-width: 5px;
+    width:fit-content;
+    height: fit-content;
+    background-color: #b7a0d1;
+    padding:25px;
+    border-radius: 10px;
+    margin-top: 40px;
+    
+}
+
+
+#the-shopping-list {
+    border-style: solid;
+    background-color: #f7eb54;
+    border-color: #b7a0d1;
+    border-width: 5px;
+    padding: 40px;
+    font-weight: bold;
+    min-height: 300px;
+    min-width: 500px;
+    font-size: x-large;
+    text-align: center;
+
+}
+
+    
+#checkout-button {
+        background-color: white; 
+        color: #f292bd; 
+        border: 2px solid black;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: bold;        
+}
+    
+#checkout-button:hover {
+        background-color: #b7a0d1;
+        color: white;
+}
+
+#checkout-link {
+    color: black;
+    font-family:'Courier New', Courier, monospace;
+    text-decoration: none;
+    font-size: 1.5em;
+}

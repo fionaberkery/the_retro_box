@@ -76,7 +76,7 @@ import crocDentist from "/Users/fionaberkery/CodeClan_work/week_8/weekend_homewo
         {
             id:7,
             image:crocDentist,
-            name:"Crocadile Dentist",
+            name:"Crocodile Dentist",
             price:"£12.99",
             description:""
         },

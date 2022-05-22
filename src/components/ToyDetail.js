@@ -22,27 +22,29 @@ const handleGoBack = () => {
         <>
             <div id="toy-detail-page">
 
-            <p>
-                <button className="button button1" onClick={handleGoBack}> Go back </button>
-            </p>
+                <p>
+                    <button className="button button1" onClick={handleGoBack}> Go back </button>
+                </p>
 
-            <img id="image-detail" src={selectedToy.image} width="600px" height="600px" />
-            <div id="item-description">
-            <h2 > {selectedToy.name} </h2>
-            <b> <p> {selectedToy.price} </p> </b>
-            <p id="description-of-toy"> {selectedToy.description} </p>
-            </div>
-            <div id="add-button">
-
-            {shoppingBasket.includes(selectedToy.name) ? <p> Added to basket! </p> :
-            <button className="button button4" onClick={handleAddToBasket} value={selectedToy.name}> Add to basket </button>}
-            
-            </div>
-            
-            <br></br>
-            {wishList.includes(selectedToy.name) ? <button className="button button3"> Wishlist ❤️ </button> :
-            <button className="button button2" onClick={handleAddToWishlist} value={selectedToy.name}> Add to wishlist ♡ </button>}
-            
+                <section id="section">
+                <img id="image-detail" src={selectedToy.image} width="600px" height="600px" />
+                </section>
+                <div id="item-description">
+                    <h2 > {selectedToy.name} </h2>
+                    <b> <p> {selectedToy.price} </p> </b>
+                    <p id="description-of-toy"> {selectedToy.description} </p>
+                </div>
+                
+                <div id="add-button">
+                    {shoppingBasket.includes(selectedToy.name) ? <b><p> Added to basket! </p></b> :
+                    <button className="button button4" onClick={handleAddToBasket} value={selectedToy.name}> Add to basket </button>}
+                </div>
+                
+                <br></br>
+                
+                {wishList.includes(selectedToy.name) ? <button className="button button3"> Wishlist ❤️ </button> :
+                <button className="button button2" onClick={handleAddToWishlist} value={selectedToy.name}> Add to wishlist ♡ </button>}
+                
             </div>
 
         </>

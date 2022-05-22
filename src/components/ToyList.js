@@ -20,9 +20,8 @@ const ToyList = ({toys, onImageClick, selectedToy, onWishListClick, wishList, on
     return (
 
         <>
-        <div id="toylist-page">
+        <div id="list-page">
             
-
             
                 {componentToShow}
             

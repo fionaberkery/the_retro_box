@@ -3,10 +3,12 @@
     
 } */
 
-#image-detail {
-    padding:50px;
-    margin-left: 30%
+#section {
+    display: flex;
+    justify-content: center;
 }
+
+
 
 .button {
     background-color: #ff78ff;

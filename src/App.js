@@ -7,6 +7,7 @@ import Home from './components/Home'
 import toys from './components/DummyData'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import Checkout from './components/Checkout'
 import './css/Home.css'
 import './css/ToyDetail.css'
 import './css/WishList.css'
@@ -32,7 +33,7 @@ const App = () => {
 }
 
 const theWishList = wishList.map((item) => {
-    return ( <p> {item} </p>)
+    return ( <b><p> {item} </p></b>)
 })
 
 const onGoBackClick = () => {
@@ -71,6 +72,10 @@ const theShoppingBasket = shoppingBasket.map((item) => {
 
           <Route path="/basket">
             <ShoppingBasket theShoppingBasket={theShoppingBasket} />
+          </Route>
+
+          <Route path="/checkout">
+            <Checkout />
           </Route>
           
           </Switch>

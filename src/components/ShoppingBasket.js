@@ -5,10 +5,14 @@ const ShoppingBasket = ({theShoppingBasket}) => {
     return (
 
         <>
-            <h1> SHOPPING BASKET </h1>
+        <div id="shoppingbasket">
+            <h1 id="shoppingbasket-header"> Your Shopping Basket </h1>
 
-            {theShoppingBasket}
-            
+            <p id="the-shopping-list"> {theShoppingBasket} 
+
+            <button id="checkout-button"> <a id="checkout-link" href="/checkout"> Go to checkout </a> </button>
+            </p>
+            </div>
         </>
     )
 }

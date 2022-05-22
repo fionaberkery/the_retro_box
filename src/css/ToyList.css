@@ -1,7 +1,4 @@
-/* #toylist-page {
-    margin:1000px
-    
-} */
+
 
 #item {
     display: inline-block;
@@ -22,6 +19,7 @@ button {
 
 #selector {
     cursor: pointer;
+    font-weight: bold;
 }
 
 #image {

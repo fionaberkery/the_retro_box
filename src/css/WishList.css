@@ -16,6 +16,7 @@
     font-size: 2em;
     margin-top: 0px;
     border-style:solid;
+    border-width: 3px;
     border-color: #f7eb54;
     width:fit-content;
     height: fit-content;
@@ -30,9 +31,12 @@
     border-style: solid;
     background-color: #f7eb54;
     border-color: #b7a0d1;
+    border-width: 3px;
     padding: 40px;
     font-weight: bold;
     min-height: 500px;
     min-width: 500px;
+    font-size: x-large;
+    text-align: center;
 
 }
