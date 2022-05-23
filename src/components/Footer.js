@@ -1,7 +1,7 @@
 import React from "react"
 import facebook from "/Users/fionaberkery/CodeClan_work/week_8/weekend_homework/retro_box/the_retro_box_2/src/images/facebook.png"
-import insta from "/Users/fionaberkery/CodeClan_work/week_8/weekend_homework/retro_box/the_retro_box_2/src/images/insta.png.crdownload"
-import twitter from "/Users/fionaberkery/CodeClan_work/week_8/weekend_homework/retro_box/the_retro_box_2/src/images/twitter.png.crdownload"
+import insta from "/Users/fionaberkery/CodeClan_work/week_8/weekend_homework/retro_box/the_retro_box_2/src/images/insta.png"
+import twitter from "/Users/fionaberkery/CodeClan_work/week_8/weekend_homework/retro_box/the_retro_box_2/src/images/twitter.png"
 import youtube from "/Users/fionaberkery/CodeClan_work/week_8/weekend_homework/retro_box/the_retro_box_2/src/images/youtube.png"
 
 const Footer = () => {
