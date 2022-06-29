@@ -2,6 +2,15 @@
 
 The Retro Box is a mock E-commerce web app which sells retro toys and games from the 90s and 80s. The webapp allows users to browse through all toys as well being able to add toys to a wishlist and add to a shopping basket. The React Router was used to allow a user to move through and view different components in the app. 
 
+<br></br>
+
+<section style="display: flex; flex-direction: row" align="center" gap="30px" >
+         
+<img width="600" height = "280" alt="retroBoxGif" src="https://user-images.githubusercontent.com/101260084/176413803-68b14086-a3b6-40eb-9ef2-08e247a2b54f.gif"/>
+</section>
+
+<br></br>
+
 ## Set Up
 
 #### Note: This setup tutorial assumes that you already have installed a package manager like <a href="https://www.npmjs.com/">npm</a> and the version control system <a href="https://git-scm.com/">git</a>.
