@@ -8,7 +8,7 @@ The Retro Box is a mock E-commerce web app which sells retro toys and games from
 
 In your local machine terminal:
 - git clone https://github.com/fionaberkery/the_retro_box.git
-- run the code npm ```start```
+- run the code ```npm start```
 
 ## Tech Stack
 ### Core technologies:
